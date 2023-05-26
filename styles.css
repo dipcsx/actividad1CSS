@@ -1,0 +1,64 @@
+/* h1{
+    color: red;
+    font-size: 15px ;
+    
+} */
+/*DEFINICION DE REGLAS CSS
+
+h1: selector
+{ color: red } : Declaracion
+color: propiedad;
+red: valor;
+TODO: Regla de css
+*/
+/*
+4 CONCEPTOS IMPORTANTISIMOS EN CSS
+
+- Selectores
+- Especificidad : 
+
+etiqueta    1
+clase       10
+id          100
+inline      1000
+!important  infinito
+
+- Cascada
+- Herencia
+* especicifidad le gana a la cascada
+*/
+
+/*linea 50200*/
+/*.elementoClass.elementoClass{
+    color: red !important
+}
+.elementoClass1{
+    color: blue !important;
+}*/
+
+h1{
+    color: brown;
+}
+p{
+    color: blue; /* hace que herede el valor del padre */
+}
+
+li{
+    color: green;
+    font-size: 15px;
+}
+h2{
+    color: inherit;
+}
+h3{
+    color: blue;
+}
+h3{
+    color: red;
+}
+.claseHerencia{
+    color: violet;
+}
+a{
+    color: inherit;
+}
